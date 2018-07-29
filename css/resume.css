@@ -42,7 +42,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #1e6ce3 ;
+  color: #009688 ;
 }
 
 .list-social-icons a .fa-lg {
@@ -54,7 +54,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #1e6ce3 ;
+  color: #009688 ;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -81,7 +81,11 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  }
+
+  #sideNav .rounded-rectangle{
+      border-radius: 10%;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -132,17 +136,65 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #1e6ce3  !important;
+  background-color: #009688  !important;
 }
 
 .text-primary {
-  color: #1e6ce3  !important;
+  color: #009688  !important;
 }
 
 a {
-  color: #1e6ce3 ;
+  color: #009688 ;
 }
 
 a:hover, a:focus, a:active {
-  color: #1e6ce3 ;
+  color: #009688 ;
 }
+
+.card-grid{
+  display: flex;
+  flex-wrap:wrap;
+}
+.my-card{
+  margin: 10px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  width: 160px;
+  padding: 3px 3px;
+}
+
+.my-card-image{
+  width: 40px;
+  font-size :40px;
+  display: flex;
+  align-self: center;
+}
+
+.my-card-body{
+  width: 120px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-card-body .progress-bar{
+  background-color: #009688;
+}
+.my-card-body-header{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  color: #495057;
+}
+
+
